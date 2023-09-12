@@ -23,6 +23,14 @@ This project consists of a simple Wireshark walkthrough in which the user will a
 
 <h2>Program walk-through:</h2>
 
+<h2>Steps:</h2>
+1. Install and set up Wireshark on Ubuntu.<br />
+2. Start a packet capture on an ethernet port and save it to file.<br />
+3. Use a display filter to detect HTTPS packets.<br />
+4. Visit a web page and detect its IP address using a display filter.<br />
+5. Locate all HTTPS packets from a capture not containing a certain IP address.<br />
+
+
 <p align="center">
 Launch the utility: <br/>
 <img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
